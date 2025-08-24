@@ -29,19 +29,19 @@ export default defineAppConfig({
     {
       title: 'GitHub',
       icon: 'i-simple-icons-github',
-      to: 'https://github.com/barbapapazes/gavarnie',
+      to: 'https://github.com/marr/hub',
       target: '_blank',
     },
     {
       title: 'X',
       icon: 'i-simple-icons-x',
-      to: 'https://x.com/soubiran_',
+      to: 'https://x.com/dmarr',
       target: '_blank',
     },
     {
       title: 'LinkedIn',
       icon: 'i-simple-icons-linkedin',
-      to: 'https://linkedin.com/in/esteban25',
+      to: 'https://www.linkedin.com/in/davidmarr/',
       target: '_blank',
     },
   ],
