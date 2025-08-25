@@ -1,8 +1,8 @@
 <script lang="ts" setup>
-const description = 'Gavarnie is a modern and flexible SaaS template for Nuxt and NuxtHub that can be used to build any application.'
+const description = 'D.Marr is a software engineer and entrepreneur.'
 
 useSeoMeta({
-  title: 'Gavarnie - Modern SaaS Template for Nuxt and NuxtHub',
+  title: 'D.Marr - Software Engineer and Entrepreneur',
   description,
 })
 </script>
@@ -10,10 +10,10 @@ useSeoMeta({
 <template>
   <UPage>
     <UPageHero
-      title="Built your SaaS in hours, not days."
+      title="D.Marr is a software engineer and entrepreneur."
       :description="description"
       orientation="horizontal"
-      :links="[{ label: 'Explore Starter', color: 'neutral', size: 'lg', icon: 'i-simple-icons-github', to: 'https://github.com/barbapapazes/gavarnie', target: '_blank' }, { label: 'Get Started', trailingIcon: 'i-heroicons-arrow-right', color: 'neutral', size: 'lg', to: 'https://hub.nuxt.com/new?repo=barbapapazes/gavarnie', target: '_blank' }]"
+      :links="[{ label: 'Explore Starter', color: 'neutral', size: 'lg', icon: 'i-simple-icons-github', to: 'https://github.com/marr', target: '_blank' }, { label: 'Get Started', trailingIcon: 'i-heroicons-arrow-right', color: 'neutral', size: 'lg', to: 'https://hub.nuxt.com/new?repo=marr', target: '_blank' }]"
     >
       <template #default>
         <img
@@ -61,7 +61,7 @@ useSeoMeta({
     <UPageSection
       title="Free and open-source"
       description="Build indie projects in hours and deploy in minutes for free. No hidden fees. Open-source (MIT)."
-      :links="[{ label: 'View source', color: 'neutral', icon: 'i-simple-icons-github', size: 'lg', to: 'https://github.com/barbapapazes/gavarnie', target: '_blank' }]"
+      :links="[{ label: 'View source', color: 'neutral', icon: 'i-simple-icons-github', size: 'lg', to: 'https://github.com/marr/hub', target: '_blank' }]"
     >
       <img
         src="/images/gavarnie2.jpg"
@@ -74,7 +74,7 @@ useSeoMeta({
         title="Start building your SaaS today"
         description="Clone the repository and start building your SaaS today."
         card
-        :links="[{ label: 'Start now', color: 'neutral', icon: 'i-simple-icons-nuxtdotjs', size: 'lg', to: 'https://hub.nuxt.com/new?repo=barbapapazes/gavarnie', target: '_blank' }, { label: 'Support the project', color: 'neutral', icon: 'i-simple-icons-github', size: 'lg', to: 'https://github.com/sponsors/barbapapazes', target: '_blank' }]"
+        :links="[{ label: 'Start now', color: 'neutral', icon: 'i-simple-icons-nuxtdotjs', size: 'lg', to: 'https://hub.nuxt.com/new?repo=marr/hub', target: '_blank' }, { label: 'Support the project', color: 'neutral', icon: 'i-simple-icons-github', size: 'lg', to: 'https://github.com/sponsors/marr', target: '_blank' }]"
       />
     </UPageSection>
   </UPage>
