@@ -10,6 +10,16 @@ declare module '#auth-utils' {
     verifiedAt: string | null
     emailToVerify?: string | null
   }
+  interface UserSession {
+    id: number
+    name: string
+    email: string
+    avatar: string | null
+    githubId?: number | null
+    twitchId?: string | null
+    verifiedAt: string | null
+    emailToVerify?: string | null
+  }
 }
 
 export {}
